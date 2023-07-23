@@ -8,7 +8,7 @@ $ sudo apt-get install device-tree-compiler
 - Build U-Boot for MX6ULL 14x14 EVK:
 
 $ make mrproper
-$ make mx6ull_14x14_evk_defconfig
+$ make ve_imx6ull_nand_ddr256_defconfig 
 $ make
 
 This generates the u-boot-dtb.imx image in the current directory.
