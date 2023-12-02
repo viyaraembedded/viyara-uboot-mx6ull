@@ -1,0 +1,14 @@
+if TARGET_VE_MX6ULL_14X14
+
+config SYS_BOARD
+	default "ve-mx6ull"
+
+config SYS_VENDOR
+	default "viyara"
+
+config SYS_CONFIG_NAME
+	default "ve-mx6ull"
+
+config SYS_TEXT_BASE
+	default 0x87800000
+endif
