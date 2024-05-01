@@ -59,6 +59,7 @@ obj-$(CONFIG_HUSH_PARSER) += exit.o
 obj-$(CONFIG_CMD_EXT4) += ext4.o
 obj-$(CONFIG_CMD_EXT2) += ext2.o
 obj-$(CONFIG_CMD_FAT) += fat.o
+obj-$(CONFIG_CMD_HELLO) += hello.o
 obj-$(CONFIG_CMD_FDT) += fdt.o
 obj-$(CONFIG_CMD_FITUPD) += fitupd.o
 obj-$(CONFIG_CMD_FLASH) += flash.o
