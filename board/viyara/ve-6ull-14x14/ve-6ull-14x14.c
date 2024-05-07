@@ -361,7 +361,7 @@ int checkboard(void)
 	else if (is_cpu_type(MXC_CPU_MX6ULZ))
 		puts("Board: MX6ULZ 14x14 EVK\n");
 	else
-		puts("Board: VIYARA MX6ULL IOT Board \n");
+		puts("Board: sam  MX6ULL IOT Board \n");
 
 	return 0;
 }
