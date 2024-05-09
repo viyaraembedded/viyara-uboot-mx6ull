@@ -25,7 +25,7 @@
 #include <mmc.h>
 #include <power/pmic.h>
 #include <power/pfuze3000_pmic.h>
-#include "../common/pfuze.h"
+//#include "../common/pfuze.h"
 
 DECLARE_GLOBAL_DATA_PTR;
 
@@ -361,7 +361,7 @@ int checkboard(void)
 	else if (is_cpu_type(MXC_CPU_MX6ULZ))
 		puts("Board: MX6ULZ 14x14 EVK\n");
 	else
-		puts("Board:  siva .......VIYARA MX6ULL IOT Board \n");
+		puts("Board: sam-imx.............  MX6ULL IOT Board \n");
 
 	return 0;
 }

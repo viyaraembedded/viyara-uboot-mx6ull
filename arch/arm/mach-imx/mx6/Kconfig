@@ -650,6 +650,15 @@ config TARGET_VE_6ULL_14X14
 	select MX6ULL
 	imply CMD_DM
 
+config TARGET_SAM_IMX_6ULL
+        bool "Support sam-imx-6ull"
+        select BOARD_LATE_INIT
+        select DM
+        select DM_THERMAL
+        select MX6ULL
+        imply CMD_DM
+
+
 config TARGET_MYD_MX6ULL_14X14
         bool "Support myd_imx6ull_14x14"
         select BOARD_LATE_INIT
@@ -948,5 +957,6 @@ source "board/viyara/ve-6ull-14x14/Kconfig"
 source "board/myir/mys-6ul-14x14/Kconfig"
 source "board/myir/myd_imx6ull_14x14/Kconfig"
 source "board/myir/myd_imx6ul_14x14/Kconfig"
+source "board/sam/sam-imx-6ull/Kconfig"
 
 endif
